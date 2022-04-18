@@ -57,7 +57,7 @@ function getTasks() {
  }
 }
 
-function completeTask(s) {
+function completeTask() {
  let tasks = JSON.parse(localStorage.getItem('tasks'))
  let tasksView = document.getElementById('tasks')
  tasksView.innerHTML = ''
